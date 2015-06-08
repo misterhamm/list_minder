@@ -19,16 +19,20 @@ h1 {
 
 input {
     border-radius: 1em;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 8rem;
+    width: 30rem;
+    height: 2.7rem;
 }
 
 .add-items {
     border-radius: 1em;
-    background-color: #FFCC80;
-    color: #872D00;
+    background-color: #FFAA80;
+    color: #D86328;
     border-style: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 2.7rem;
 }
 
 .add-items:hover {
@@ -82,7 +86,7 @@ input {
 }
 
 .info {
-    background-color: #062E58;
+    background-color: #E98450;
     text-align: center;
     color: #FFFFFF;
     width: 100%;
