@@ -18,7 +18,7 @@ h1 {
 }
 
 input {
-    border-radius: 1em;
+    border: none;
     font-size: 1.5rem;
     margin-top: 8rem;
     width: 30rem;
