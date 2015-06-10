@@ -20,11 +20,13 @@ $(document).ready(function() {
 
 //Delete All
     $(document).on("click", ".clear-all-button", function() {
-        $(".list-items").children().remove();
+        var clearAll = confirm("Do you want to clear your whole list?");
+        if(clearAll == true) {
+            $(".list-items").children().remove();}
     });
 
 
-//Sort List - jQueryUI widget
+//Sort List - jQueryUI widget - not sure how to implement
  /*   $(".list-items").sortable();*/
 
 });
