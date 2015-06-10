@@ -85,6 +85,23 @@ input {
     margin-left: 0.5rem;
 }
 
+.clear-all {
+    padding-left: 40%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.clear-all-button {
+    width: 20%;
+    height: 2rem;
+    margin: 0.3rem 0;
+    border-radius: 1em;
+    border-style: none;
+    background-color: #D46A6A;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .info {
     background-color: #E98450;
     text-align: center;
