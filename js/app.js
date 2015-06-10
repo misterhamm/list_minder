@@ -19,7 +19,12 @@ $(document).ready(function() {
     });
 
 //Delete All
-    /*$(document).on("click", ".delete-all", function() {
+    $(document).on("click", ".clear-all-button", function() {
         $(".list-items").children().remove();
-    });*/
+    });
+
+
+//Sort List - jQueryUI widget
+ /*   $(".list-items").sortable();*/
+
 });
