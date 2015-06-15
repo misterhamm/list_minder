@@ -80,11 +80,6 @@ input {
     text-decoration: line-through;
 }
 
-.fa fa-trash-o {
-    height: 50px;
-    width: 50px;
-}
-
 .clear-all {
     padding-left: 40%;
     width: 100%;
@@ -113,3 +108,17 @@ input {
 .icon {
     font-size: 0.5rem;
 }
+
+.fa-trash-o {
+    color: #B2B2B2;
+    font-size: 4em;
+}
+
+.fa-trash-o:hover {
+    color: #CC0000;
+}
+
+.delete {
+    padding: 50% 0 50% 0;
+}
+

@@ -8,13 +8,13 @@ $(document).ready(function() {
 //Add items
     $('.add-items').click(function() {
         var newItem = $('input').val();
-        $('.list-items:first-child').prepend('<li class="item"><button class="item-active">≡ ' + newItem + '</button><button class="delete-item">X</button></li>');
+        $('.list-items:first-child').prepend('<li class="item"><button class="item-active">≡ ' + newItem + '<i class="fa fa-trash-o"></i>');
         return $('input').val("");
 });
 
 
 //Delete Items
-    $(document).on("click", ".delete-item", function() {
+    $(document).on("click", ".fa-trash-o", function() {
         $(this).parent().remove();
     });
 
@@ -29,4 +29,7 @@ $(document).ready(function() {
 //Sort List - jQueryUI widget - not sure how to implement
  /*   $(".list-items").sortable();*/
 
+//Delete icon show/hide
+    $('#delete').on('mouseenter', 'li', function(){$(this).children('.fa-trash-0').toggleClass('show');});
+	$('#delete').on('mouseleave', 'li', function(){$(this).children('.fa-trash-o').toggleClass('show');});
 });
