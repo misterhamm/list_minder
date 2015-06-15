@@ -80,12 +80,9 @@ input {
     text-decoration: line-through;
 }
 
-.delete-item {
-    border-radius: 50%;
-    border-style: none;
-    font-size: 1.5rem;
-    background-color: #D46A6A;
-    margin-left: 0.5rem;
+.fa fa-trash-o {
+    height: 50px;
+    width: 50px;
 }
 
 .clear-all {
