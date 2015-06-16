@@ -8,7 +8,7 @@ $(document).ready(function() {
 //Add items
     $('.add-items').click(function() {
         var newItem = $('input').val();
-        $('.list-items:first-child').prepend('<li class="item"><button class="item-active">≡ ' + newItem + '<i class="fa fa-trash-o"></i>');
+        $('.list-items:first-child').prepend('<li class="item"><p class="item-active">&nbsp; ≡ ' + newItem + '</p><i class="fa fa-trash-o delete"></i></li>');
         return $('input').val("");
 });
 
