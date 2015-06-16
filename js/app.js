@@ -13,7 +13,7 @@ $(document).ready(function() {
 });
 
 //Delete icon show/hide
-    $(document).on("mouseenter", ".item", function() {
+    /*$(document).on("mouseenter", ".item", function() {
         $('.delete').toggleClass('delete-show');
         console.log('working in');
     });
@@ -21,7 +21,7 @@ $(document).ready(function() {
     $(document).on("mouseleave", ".item", function() {
         $('.delete').toggleClass('delete');
         console.log('working out');
-    });
+    });*/
 
 //Delete Items
     $(document).on("click", ".fa-trash-o", function() {

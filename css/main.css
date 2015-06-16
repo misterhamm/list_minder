@@ -103,18 +103,14 @@ input {
     right: 0.4em;
 }
 
-.delete-show {
-    color: #B2B2B2;
-    font-size: 1.5em;
-    z-index: 9999;
-    position: absolute;
-    top: 0.15em;
-    right: 0.4em;
-}
-
-.delete-show:hover {
+.delete:hover {
     color: #CC0000;
 }
+
+.item:hover .delete {
+    display: block;
+}
+
 
 /* List Clear */
 .clear-all {
