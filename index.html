@@ -12,47 +12,42 @@
 </head>
 
 <body>
-    <header class="head">
-        <!--<h1>List Minder</h1>-->
+
+    <!-- Top bar with app logo -->
+    <header class="header">
         <img src="images/shopping_bag.png">
     </header>
 
+   <!-- Item entry section -->
     <section class="entry">
         <input type="text" name="enter-item" placeholder="⁮Add Items Here">
         <button class="add-items">Add to list</button>
     </section>
 
+   <!-- Shopping List -->
     <section class="list">
        <ul class="list-items">
             <li class="item">
-                <button class="item-active">≡ Click items to check/uncheck from your list</button>
-                <i class="fa fa-trash-o"></i>
+                <p class="item-active">&nbsp; ≡ Beer</p>
+                <i class="fa fa-trash-o delete"></i>
             </li>
-           <!-- <li class="item"><button class="item-active">≡ Click and drag to rearrange the order of items</button><button class="delete-item">X</button></li> -->
-            <li class="item">
-                <button class="item-active">≡ Click the red button to delete items from your list</button>
-                <i id="delete" class="fa fa-trash-o"></i>
-            </li>
-            <li class="item">
-                <button class="item-active">≡ Eggs</button>
-                <i class="fa fa-trash-o"></i>
-            </li>
-            <li class="item">
-                <p class="item-active">≡ Beer</p>
-                <img src="images/delete.png" class="delete">
-            </li>
-           <li class="item">
+           <!-- <li class="item">
                <button class="item-checked item-active">≡ Preparation H</button>
                <i class="fa fa-trash-o"></i>
-           </li>
-
+           </li> -->
         </ul>
-        <div class="clear-all"><button class="clear-all-button">Clear List</button></div>
     </section>
 
+    <!-- Clear List -->
+    <section class="clear-all">
+        <button class="clear-all-button">Clear List</button>
+    </section>
+
+    <!-- Credit Footer -->
     <footer class="info">
         <p>&copy; 2015 <a href="http://misterhamm.github.io/chris_hamm_portfolio">HTG Designs</a></p>
         <p class="icon">Icon provided by <a href="https://www.iconfinder.com/pareshdhake">Paresh D</a></p>
     </footer>
+
 </body>
 </html>
