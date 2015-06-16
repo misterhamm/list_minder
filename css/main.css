@@ -35,9 +35,6 @@ input {
     width: 8rem;
     height: 2.7rem;
     margin-top: 0.5em;
-}
-
-.add-items:hover {
     cursor: default;
 }
 
@@ -112,19 +109,19 @@ input {
 
 /* List Clear */
 .clear-all {
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 5em;
+    margin: 2em auto 5em auto;
+    padding: 0 auto 0 auto;
+    text-align: center;
 }
 
 .clear-all-button {
-    width: 30%;
+    width: 6em;
     height: 2rem;
-    margin: 0.3rem 35% 1rem 35%;
     border-radius: 1em;
     border-style: none;
     background-color: #D46A6A;
     text-align: center;
+    cursor: default;
 }
 
 /* Credit Footer */
@@ -150,4 +147,24 @@ input {
 .info {
     position: fixed;
     bottom: 0;
+}
+
+/* Responsive Design */
+
+@media screen and (min-width: 375px) {
+    .list {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 575px) {
+
+input {
+    width: 20em;
+}
+
+.list {
+    width: 22em;
+}
+
 }
