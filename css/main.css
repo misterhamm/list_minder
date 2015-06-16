@@ -74,7 +74,7 @@ input {
     text-align: left;
     z-index: 1;
     vertical-align: middle;
-    display: table-cell;
+    line-height: 2em;
 }
 
 /* Checked Items */
@@ -110,11 +110,11 @@ input {
     display: block;
 }
 
-
 /* List Clear */
 .clear-all {
     width: 100%;
     margin-top: 2rem;
+    margin-bottom: 5em;
 }
 
 .clear-all-button {
@@ -142,5 +142,12 @@ input {
     font-size: 0.5rem;
 }
 
+/* Sticky footer */
 
-
+.wrapper {
+    height: 100%
+}
+.info {
+    position: fixed;
+    bottom: 0;
+}
