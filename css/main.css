@@ -20,7 +20,6 @@ input {
     border-radius: 2rem;
     border-style: solid;
     border-color: #808080;
-    font-size: 1.5rem;
     margin-top: 4rem;
     width: 90%;
     height: 2.7rem;
@@ -33,9 +32,9 @@ input {
     background-color: #FFAA80;
     color: #D86328;
     border-style: none;
-    font-size: 1.5rem;
     width: 8rem;
     height: 2.7rem;
+    margin-top: 0.5em;
 }
 
 .add-items:hover {
@@ -46,21 +45,21 @@ input {
 .list {
     margin: 3rem auto 0 auto;
     max-width: 90%;
-    border: solid 1px black;
 }
 
 /* List ul */
 .list-items {
     list-style: none;
-    max-width: 100%;
+    width: 100%;
     /*padding-left: 30%;*/
-    min-height: 15rem;
+    min-height: 5rem;
     padding: 0;
+    display: table;
 }
 
 /* List li */
 .item {
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -73,8 +72,9 @@ input {
     border-style: none;
     background-color: #BEEBDC;
     text-align: left;
-    font-size: 1.5rem;
     z-index: 1;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 /* Checked Items */
@@ -86,7 +86,6 @@ input {
     border-style: none;
     background-color: #5FB196;
     text-align: left;
-    font-size: 1.5rem;
     color: #808080;
     text-decoration: line-through;
     z-index: 1;
@@ -126,7 +125,6 @@ input {
     border-style: none;
     background-color: #D46A6A;
     text-align: center;
-    font-size: 1.5rem;
 }
 
 /* Credit Footer */
