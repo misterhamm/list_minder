@@ -22,7 +22,7 @@ input {
     border-color: #808080;
     font-size: 1.5rem;
     margin-top: 4rem;
-    width: 60%;
+    width: 90%;
     height: 2.7rem;
     text-align: center;
 }
@@ -34,7 +34,7 @@ input {
     color: #D86328;
     border-style: none;
     font-size: 1.5rem;
-    width: 10rem;
+    width: 8rem;
     height: 2.7rem;
 }
 
@@ -74,7 +74,6 @@ input {
     background-color: #BEEBDC;
     text-align: left;
     font-size: 1.5rem;
-    float: left;
     z-index: 1;
 }
 
@@ -90,22 +89,30 @@ input {
     font-size: 1.5rem;
     color: #808080;
     text-decoration: line-through;
-    float: left;
     z-index: 1;
-    position: absolute;
 }
 
 /* Delete Individual Items */
 .delete {
     color: #B2B2B2;
     display: none;
-    font-size: 4em;
+    font-size: 1.5em;
     z-index: 9999;
     position: absolute;
-    margin: .8em 6em 0 0;
+    top: 0.15em;
+    right: 0.4em;
 }
 
-.delete:hover {
+.delete-show {
+    color: #B2B2B2;
+    font-size: 1.5em;
+    z-index: 9999;
+    position: absolute;
+    top: 0.15em;
+    right: 0.4em;
+}
+
+.delete-show:hover {
     color: #CC0000;
 }
 

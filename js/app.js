@@ -12,6 +12,16 @@ $(document).ready(function() {
         return $('input').val("");
 });
 
+//Delete icon show/hide
+    $(document).on("mouseenter", ".item", function() {
+        $('.delete').toggleClass('delete-show');
+        console.log('working in');
+    });
+
+    $(document).on("mouseleave", ".item", function() {
+        $('.delete').toggleClass('delete');
+        console.log('working out');
+    });
 
 //Delete Items
     $(document).on("click", ".fa-trash-o", function() {
@@ -29,7 +39,7 @@ $(document).ready(function() {
 //Sort List - jQueryUI widget - not sure how to implement
  /*   $(".list-items").sortable();*/
 
-//Delete icon show/hide
-    $('#delete').on('mouseenter', 'li', function(){$(this).children('.fa-trash-0').toggleClass('show');});
-	$('#delete').on('mouseleave', 'li', function(){$(this).children('.fa-trash-o').toggleClass('show');});
+
+
+
 });
