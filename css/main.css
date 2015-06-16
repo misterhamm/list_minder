@@ -45,19 +45,20 @@ input {
 }
 
 .list {
-    margin-top: 3rem;
-;
+    margin: 3rem auto 0 auto;
+    max-width: 60%;
+    border: solid 1px black;
 }
 
 .list-items {
     list-style: none;
-    width: 100%;
+    max-width: 100%;
     padding-left: 30%;
     min-height: 15rem;
 }
 
 .item-active {
-    width: 40%;
+    width: 100%;
     height: 2rem;
     margin: 0.3rem 0;
     border-radius: 1em;
@@ -119,6 +120,6 @@ input {
 }
 
 .delete {
-    padding: 50% 0 50% 0;
+    float: right;
 }
 
